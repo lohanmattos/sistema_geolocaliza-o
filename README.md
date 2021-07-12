@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 # Serviço de Geolocalização
 
 ![image-20210710131557676](img.png)
