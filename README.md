@@ -44,6 +44,12 @@ num_phone = "+5556992344445"
 phone = phonenumbers.parse(num_phone)
 ```
 
+Depois de criar o número, vamos passar como parâmetro para a função abaixo, que vai retorna a região onde o número foi registrado. 
+
+```python
+geoloc = geocoder.description_for_number(phone, "pt")
+```
+
 O Comando abaixo irá imprimir a localização encontrada. 
 
 ```python
